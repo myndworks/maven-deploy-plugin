@@ -30,7 +30,7 @@ under the License.
   </parent>
 
   <artifactId>maven-deploy-plugin</artifactId>
-  <version>3.0.0-M2-SNAPSHOT</version>
+  <version>3.0.0-M2-SNAPSHOT-VULN-PATCH</version>
   <packaging>maven-plugin</packaging>
 
   <name>Apache Maven Deploy Plugin</name>
@@ -93,7 +93,7 @@ under the License.
     <dependency>
       <groupId>org.apache.maven.shared</groupId>
       <artifactId>maven-artifact-transfer</artifactId>
-      <version>0.12.0</version>
+      <version>0.13.1-SNAPSHOT-VULN-PATCH</version>
     </dependency>
     <!-- Upgrade of transitive dependency. -->
     <dependency>
